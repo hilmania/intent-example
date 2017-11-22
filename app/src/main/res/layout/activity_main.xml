@@ -19,21 +19,21 @@
         android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
     <Button
-        android:id="@+id/btn_move_data"
+        android:id="@+id/btn_move_activity_data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/pindah_activity_data"
         android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
     <Button
-        android:id="@+id/btn_move_object"
+        android:id="@+id/btn_move_activity_object"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/pindah_activity_object"
         android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
     <Button
-        android:id="@+id/btn_dial"
+        android:id="@+id/btn_dial_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/dial_number"
@@ -51,6 +51,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/hasil_dari_activity"
+        android:textSize="@dimen/size_result"
         android:gravity="center"
         android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
